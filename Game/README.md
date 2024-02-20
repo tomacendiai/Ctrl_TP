@@ -1,6 +1,19 @@
 # Ctrl_TP
 
-test_game.py :
+## Classe Game :
+
+Cette classe est responsable de la logique du jeu. Elle prend en charge la création de la grille, la position du robot et de la cible, ainsi que la gestion des déplacements du robot en fonction de différentes stratégies. Voici une explication de ses fonctionnalités :
+
+    __init__: Initialise la partie avec une grille, un robot, et d'autres paramètres comme le nombre maximal d'étapes et l'affichage de la grille.
+    place_target: Place aléatoirement la cible sur la grille.
+    check_collision: Vérifie si le robot a atteint la cible.
+    random_movement: Choix aléatoire d'un mouvement parmi les directions disponibles.
+    smart_movement: Calcul d'un mouvement intelligent basé sur la distance entre le robot et la cible.
+    mixed_movement: Mélange de mouvements aléatoires et intelligents.
+    run_turn: Exécute un tour de jeu en fonction de la stratégie choisie. Si aucune stratégie n'est spécifiée, elle utilise la stratégie aléatoire par défaut.
+
+
+## test_game.py :
 
 Ce code crée une classe de test TestGame qui hérite de unittest.TestCase. Trois tests sont définis :
 
