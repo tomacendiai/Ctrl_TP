@@ -1,3 +1,5 @@
+#score : 5.62/10
+
 class Robot:
     def __init__(self, x, y):
         self.x = x
