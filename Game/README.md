@@ -1,5 +1,5 @@
 # Ctrl_TP
-
+##test_game.py
 Ce code crée une classe de test TestGame qui hérite de unittest.TestCase. Trois tests sont définis :
 
     test_place_target: Ce test vérifie si la méthode place_target place correctement la cible sur la grille.
