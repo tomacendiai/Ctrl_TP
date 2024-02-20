@@ -1,6 +1,7 @@
 # Ctrl_TP
 
 test_main.py :
+
     La classe de test TestMainGame hérite de unittest.TestCase.
     Le décorateur @patch est utilisé pour remplacer la méthode Game.game.Game.run_turn par une fonction de simulation qui renvoie successivement False puis True. Cela permet de contrôler le déroulement de la boucle dans la méthode play de la classe MainGame.
     Le test test_play vérifie que la méthode play de MainGame imprime le message approprié lorsque le jeu est terminé avec succès (lorsque la cible est atteinte).
