@@ -1,6 +1,6 @@
 # Ctrl_TP
 
-##test_game.py
+test_game.py :
 
 Ce code crée une classe de test TestGame qui hérite de unittest.TestCase. Trois tests sont définis :
 
